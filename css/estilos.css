@@ -1,0 +1,17 @@
+body{    
+    background: #404040;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: auto;
+    
+}
+
+.imagen{
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}
