@@ -1,23 +1,40 @@
-header nav ul p{    
-    font-family: 'Roboto', sans-serif;
-    color: aliceblue;
-    text-align: right;
+html, body {
+    padding: 0px;
+    margin: 0px;
 }
 
-body{    
+nav {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
     background: #404040;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 5px;
+}
+
+nav li a {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li a:hover{
+    color: red;
+}
+
+/* Estilos para el Main Section*/
+
+.main_section{
+    background: #404040;
+    padding: 5%;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: aliceblue;
     text-align: center;
-    font-weight: auto;
-    
-}
-
-.imagen{
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
 }
