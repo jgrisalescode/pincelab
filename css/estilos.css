@@ -1,40 +1,5 @@
-html, body {
-    padding: 0px;
-    margin: 0px;
-}
-
-nav {
-    display: flex;    
-    justify-content: space-between;
-    align-items: center;
-    background: #404040;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    list-style: none;
-    padding: 5px;
-}
-
-nav li a {
-    color: aliceblue;
+#options a {
     font-family: 'Roboto', sans-serif;
-}
-
-nav li a:hover{
-    color: red;
-}
-
-/* Estilos para el Main Section*/
-
-.main_section{
-    background: #404040;
-    padding: 5%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: aliceblue;
-    text-align: center;
+    font-size: 24px;
+    color: #444756;
 }
