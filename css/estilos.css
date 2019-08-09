@@ -1,25 +1,83 @@
-.nav-item a {
-    font-family: 'Roboto' sans-serif;
-    color: #444756;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-#img-home .overlay {
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-    left: 0;
-    right: 0;        
+:root {
+    --main-color: #11C243;
+}
+
+.text-options {
+    color: #05091E !Important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+.text-title {
+    color: var(--main-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+}
+
+.text-know-more {
+    color: #11C243;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;    
+}
+
+.card-title {
+    color: #444756;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+}
+
+.card-text {
+    color: #444756;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
+.text-develop {
+    color: #444756;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
+.text-design {
+    color: var(--main-color);
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+
+.card {
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.26);
+}
+
+.text-prominent {
+    font-style: italic;
+    /* color: var(--main-color); */
+}
+
+.text-pargraph {
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-pincelab {
+    background-color: #05091E;
+    color: #11C243;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+.btn-pincelab:hover {
+    background-color: #0a1341;
     color: white;
 }
 
-#img-home .overlay h2{
-    font-family: 'Roboto' sans-serif;
-    font-size: 36px;
-    text-align: center;
-}
-
-/* Esto es para centrar lo que esta sobre el overlay */
-#img-home .overlay .container,
-#img-home .overlay .row {
-    height: 100%;
+#header-box {
+    border-bottom: solid 1px #05091E;
 }

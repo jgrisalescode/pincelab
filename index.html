@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -9,7 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 
     <title>pincelab</title>
@@ -17,63 +18,137 @@
 
 <body>
     <!-- Header -->
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-none">
-                <a class="navbar-brand" href="#">
-                    <img src="images/Logo.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">inicio<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">que hacemos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">únete</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                <img src="images/Spanish.png" alt="es">
-                            </a>
-                            <a href="#">
-                                <img src="images/English.png" alt="en">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-none pb-0" style="background-color: white;">
+        <div class="container" id="header-box">
+
+            <a class="navbar-brand" href="#">
+                <img src="images/Logo.png" alt="pincelab">
+            </a>
+            <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-options" href="#">inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-options" href="#">qué_hacemos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-options" href="#">únete</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-pincelab">contacto</button>
+                    </li>
+                </ul>
+            </div>
+            <hr>
         </div>
-    </header>
+    </nav>
     <!-- /Header -->
     <!-- Main -->
-    <main id="main">
-        <div id="img-home">
-            <img src="images/Home_Image.png" alt="main-img" class="d-block w-100">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h2 class="d-none d-sm-block">Tu marca necesita una imagen fresca, amigable y que sepa conectarse con tus clientes,
-                                esa es
-                                nuestra misión, únete al exclusivo club de compañías top que ya lo están haciendo</h2>
+    <main id="inicio">
+        <div class="container mt-3 mb-3">
+            <div class="row align-items-center d-none d-md-flex">
+                <div class="col-2">
+                    <img src="images/logica.png" alt="logic_pincelab">
+                </div>
+                <div class="col-8">
+                    <p class="text-pargraph">buscamos y <span class="text-prominent">desarrollamos</span> soluciones que
+                        estén en línea con la
+                        filosofía de tu marca y los valores que quieres que tu público y colaboradores compartan.</p>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-end d-none d-md-flex">
+                <div class="col-8">
+                    <p class="text-pargraph">ayudamos a nuestros clientes a conectar con sus objetivos, es
+                        por eso que nos encanta <span class="text-prominent">diseñar</span> experiencias para que tu
+                        marca sea recordada.</p>
+                </div>
+                <div class="col-2">
+                    <img src="images/design.png" alt="design_pincelab">
+                </div>
+            </div>
+            <!-- Header Responsive Design -->
+            <div class="row justify-content-center d-flex d-md-none">
+                <div class="col">
+                    <img class="float-right" src="images/logica.png" alt="logic_pincelab">
+                </div>
+                <div class="col">
+                    <img class="float-left" src="images/design.png" alt="design_pincelab">
+                </div>
+            </div>
+            <div class="row justify-content-center d-flex d-md-none">
+                <div class="col">
+                    <h2 class="text-develop text-right">we develop</h2>
+                </div>
+                <div class="col">
+                    <h2 class="text-design text-left">we design</h2>
+                </div>
+            </div>
+            <!-- /Header Responsive Design -->
+        </div>
+    </main>
+    <!-- /Main -->
+    <!-- Services -->
+    <section class="services mt-3 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-title">qué hacemos</h1>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-6 mt-3 mb-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/seo.png" class="card-img-top" alt="seo">
+                        <div class="card-body">
+                            <h5 class="card-title">SEO</h5>
+                            <p class="card-text">Hacemos analítica a tu sitio web y lo optimizamos para los buscadores
+                                de Internet.</p>
+                            <a href="#" class="text-know-more">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 mb-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/web-design.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">WEB DESIGN</h5>
+                            <p class="card-text">Una imagen dice más que mil palabras, es por eso que diseñamos
+                                interfaces que generen impacto.</p>
+                            <a href="#" class="text-know-more">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 mb-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/logo-design.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">LOGO DESIGN</h5>
+                            <p class="card-text">Diseñamos el logo perfecto para tu proyecto, que refleje de manera
+                                simple y clara lo que hace tu marca.</p>
+                            <a href="#" class="text-know-more">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-3 mb-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="images/development2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DEVELOPMENT</h5>
+                            <p class="card-text">Desarrollamos aplicaciones web a medida para tu proyecto que vayan en
+                                línea con la lógica de tu negocio.</p>
+                            <a href="#" class="text-know-more">Saber más</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </main>
-    <!-- /Main -->
+    </section>
+    <!-- /Services -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
