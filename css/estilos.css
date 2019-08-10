@@ -3,16 +3,43 @@ html, body {
     padding: 0;
 }
 
+/* Variables Globales */
 :root {
     --main-color: #11C243;
 }
+/* /Variables Globales */
 
+/* Header */
 .text-options {
     color: #05091E !Important;
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
 }
 
+.btn-pincelab{    
+    background-color: #05091E;
+    color: #11C243;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn-pincelab a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.btn-pincelab:hover{
+    background-color: #0a1341;
+    color: white;
+}
+
+#header-box {
+    border-bottom: solid 1px #05091E;
+}
+/* /Header */
+
+/* Main */
 .text-title {
     color: var(--main-color);
     font-family: 'Ubuntu', sans-serif;
@@ -65,19 +92,20 @@ html, body {
     margin: 0;
     padding: 0;
 }
+/* /Main */
 
-.btn-pincelab {
-    background-color: #05091E;
-    color: #11C243;
+
+/* Footer */
+#footer {
+    background-color: #CDCED2;    
+    
+}
+
+#footer a {
+    text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
+    color: #05091E;
 }
+/* /Footer */
 
-.btn-pincelab:hover {
-    background-color: #0a1341;
-    color: white;
-}
-
-#header-box {
-    border-bottom: solid 1px #05091E;
-}
