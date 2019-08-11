@@ -58,10 +58,22 @@ html, body {
     font-size: 34px;
 }
 
+.card-title-staff {
+    color: #444756;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
 .card-text {
     color: #444756;
     font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.card-text-staff {
+    color: #444756;
+    font-family: 'Lora', serif;
+    font-size: 20px;
 }
 
 .text-develop {
@@ -79,6 +91,7 @@ html, body {
 .card {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.26);
+    width: 100%;
 }
 
 .text-prominent {
@@ -93,6 +106,21 @@ html, body {
     padding: 0;
 }
 /* /Main */
+
+/* SEO */
+.btn-outline-success a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.btn-outline-success a:hover {
+    color: white;
+}
+
+.cta-box {
+    text-align: right;
+}
+/* /SEO */
 
 
 /* Footer */
