@@ -107,6 +107,12 @@ html, body {
 }
 /* /Main */
 
+/* Argumentos */
+.overlay {
+    position: absolute;
+}
+/* /Argumentos */
+
 /* SEO */
 .btn-outline-success a {
     text-decoration: none;
